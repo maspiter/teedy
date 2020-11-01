@@ -1,0 +1,18 @@
+importer:
+  daemon: true
+  # adjust with your domain or IP and port
+  baseUrl: 'http://yourdomain.name:8100'
+  # set appropriate login info
+  username: admin
+  password: admin
+  path: /import
+  # choose which default tag to apply, you can find the tag id's with http://your_ip_or_domain.name:your_port/api/tag/list
+  tag: a210c2bc-9697-49c5-b061-aca56e24fa00
+  # set the language of imported documents
+  lang: nld
+  # necessary argument, filtering possible to i.e. only include PDF files
+  fileFilter: '*'
+  # set this to be able to add tags automatically with #tagname in the file name of the imported documents (tag must exist in the system)
+  addtags: true
+  # set the folder to copy the documents to after importing
+  copyFolder: ''
