@@ -1,4 +1,4 @@
-# teedy
+# Teedy a.k.a Sismics Docs
 Docker compose and Teedy configuration files.
 
 The docker compose file uses postgreSQL as DB backend.
