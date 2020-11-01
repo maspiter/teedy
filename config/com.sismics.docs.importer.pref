@@ -1,3 +1,6 @@
+# this file can be generated with the teedy-importer.sh script as per the instructions, example output file below
+# ignore the username password incorrect console messages when booting unless ofcourse they are incorrect
+# only when the teedy app container is booted and accepting connections the importer will start polling
 importer:
   daemon: true
   # adjust with your domain or IP and port
